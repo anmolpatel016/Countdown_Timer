@@ -111,7 +111,7 @@ input[type="time"]:focus {
     opacity: 1;
 }
 
-.time-unit {
+.time-container {
     background: linear-gradient(145deg, #f0f0f0, #ffffff);
     border-radius: 15px;
     padding: 20px;
@@ -120,11 +120,11 @@ input[type="time"]:focus {
     transition: transform 0.3s ease;
 }
 
-.time-unit:hover {
+.time-container:hover {
     transform: translateY(-5px);
 }
 
-.time-value {
+.time-info {
     font-size: 2.5em;
     font-weight: bold;
     color: #333;
@@ -229,7 +229,8 @@ input[type="time"]:focus {
         gap: 15px;
     }
 
-    .time-value {
+    .time-info {
         font-size: 2em;
     }
+
 }
